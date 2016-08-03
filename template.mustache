@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>a web browser Fuzzer</title>
+  </head>
+  <body>
+    <h1> Fuzzing </h1>
+  </body>
+  <script>
+    // setTimeout(function () {window.location = "{{{reloadAddress}}}";}, 5);
+    window.onload = () => {
+      window.location = "{{{reloadAddress}}}";
+    }
+  </script>
+
+  {{{content}}}
+
+</html>
